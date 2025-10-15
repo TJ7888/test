@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>会社概要 | Example Corp</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700&display=swap" />
+  <style>
+    body {
+      margin: 0;
+      font-family: "Noto Sans JP", sans-serif;
+      background: #f5f7fa;
+      color: #1f2933;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #0f172a;
+      color: #fff;
+      padding: 48px 24px;
+      text-align: center;
+    }
+
+    header a {
+      color: #9cc3ff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    main {
+      max-width: 960px;
+      margin: -40px auto 0;
+      background: #fff;
+      border-radius: 20px;
+      padding: 48px;
+      box-shadow: 0 18px 48px rgba(15, 23, 42, 0.16);
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      margin-top: 0;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      margin-bottom: 12px;
+      border-left: 6px solid #1f7aec;
+      padding-left: 12px;
+    }
+
+    p,
+    li {
+      color: #52606d;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+      margin: 32px 0;
+    }
+
+    .card {
+      background: #f8fbff;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: inset 0 0 0 1px rgba(31, 122, 236, 0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 24px;
+    }
+
+    th,
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid #e2e8f0;
+      text-align: left;
+    }
+
+    th {
+      width: 30%;
+      color: #334155;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #94a3b8;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        margin: 0;
+        border-radius: 0;
+        padding: 32px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p><a href="index.html">トップページへ戻る</a></p>
+    <h1>会社概要</h1>
+    <p>Example Corpは、最新テクノロジーを活用してお客様のビジネス変革を支援するコンサルティングファームです。</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>ミッション</h2>
+      <p>「人とテクノロジーの力で、持続可能な成長を実現する」ことをミッションに掲げ、デジタル戦略から実行までワンストップで支援しています。</p>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h3>バリュー</h3>
+        <ul>
+          <li>誠実さと透明性を重視し、信頼関係を築く</li>
+          <li>データに基づく意思決定で成果を最大化</li>
+          <li>挑戦と学習を繰り返し、常に進化し続ける</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>強み</h3>
+        <ul>
+          <li>多様な業界出身の専門チーム</li>
+          <li>アジャイル型のプロジェクト推進力</li>
+          <li>グローバル拠点との連携体制</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>会社情報</h2>
+      <table>
+        <tr>
+          <th>会社名</th>
+          <td>Example Corp株式会社</td>
+        </tr>
+        <tr>
+          <th>所在地</th>
+          <td>〒100-0005 東京都千代田区丸の内1-1-1</td>
+        </tr>
+        <tr>
+          <th>設立</th>
+          <td>2010年4月1日</td>
+        </tr>
+        <tr>
+          <th>資本金</th>
+          <td>5億円</td>
+        </tr>
+        <tr>
+          <th>代表者</th>
+          <td>代表取締役CEO　高橋 未来</td>
+        </tr>
+        <tr>
+          <th>従業員数</th>
+          <td>350名（2024年3月現在）</td>
+        </tr>
+        <tr>
+          <th>事業内容</th>
+          <td>デジタル戦略コンサルティング、システム開発、データ分析基盤構築、クラウド運用支援</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>拠点ネットワーク</h2>
+      <p>東京本社を中心に、名古屋、大阪、福岡の国内4拠点と、シンガポール、サンフランシスコの海外拠点を展開しています。現地チームとの連携で、グローバルプロジェクトにも迅速に対応可能です。</p>
+    </section>
+
+    <section>
+      <h2>サステナビリティへの取り組み</h2>
+      <p>Example Corpは、環境への配慮と社会的責任を重視しています。カーボンニュートラルの実現に向けた自社オペレーションの最適化や、教育支援プログラムを通じて次世代のデジタル人材育成にも貢献しています。</p>
+    </section>
+  </main>
+
+  <footer>
+    <small>© 2024 Example Corp. All rights reserved.</small>
+  </footer>
+</body>
+</html>
